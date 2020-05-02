@@ -1,0 +1,8 @@
+<resources>
+<string name="app_name">Wisata Ambon</string>
+<string name="tours_name">Nama Wisata</string>
+<string name="detail">Detail</string>
+<string name="nama" />
+<string name="email" />
+    <string name="lokasi">Lokasi</string>
+</resources>

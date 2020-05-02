@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/img_item_photo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="TODO"
+                android:scaleType="fitXY"
+                android:src="@drawable/gong_perdamaian" />
+
+
+        <TextView
+            android:id="@+id/tv_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_item_photo"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="-39dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="6dp"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            tools:text="@string/tours_name" />
+
+        <ImageView
+            android:id="@+id/img_icon"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="TODO"
+            android:scaleType="fitXY"
+            android:src="@drawable/lokasi"
+            android:layout_below="@id/tv_item_name"/>
+
+        <TextView
+            android:id="@+id/tv_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="12sp"
+            tools:text="@string/lokasi"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_below="@id/tv_item_name"/>
+
+        <TextView
+            android:id="@+id/tv_item_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="14sp"
+            tools:text="@string/detail"
+            android:layout_below="@id/img_icon"/>
+
+
+    </RelativeLayout>
+</ScrollView>

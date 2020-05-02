@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white">
+
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="TODO"
+        android:scaleType="fitXY"
+        android:src="@drawable/hariyanto" />
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="6dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        tools:text="Hariyanto"
+        android:layout_below="@id/image"/>
+
+        <ImageView
+            android:id="@+id/icon_email"
+            android:layout_width="25dp"
+            android:layout_height="23dp"
+            android:layout_below="@id/nama"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="0dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="TODO"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/ic_email_black_24dp"/>
+
+    <TextView
+        android:id="@+id/nama_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nama"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        tools:text="hariyanto.ambon90@gmail.com" />
+
+</RelativeLayout>
